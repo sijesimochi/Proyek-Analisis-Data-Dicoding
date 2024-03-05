@@ -32,7 +32,7 @@ def create_days_df(df):
     return days_df
 
 # load final/cleaned data
-all_df = pd.read_csv("/dashboard/day_modified.csv")
+all_df = pd.read_csv("https://github.com/sijesimochi/Proyek-Analisis-Data-Dicoding/blob/main/dashboard/day_modified.csv?raw=True")
 
 datetime_columns = ['date']
 all_df.sort_values(by='date', inplace=True)
