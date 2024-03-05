@@ -32,7 +32,7 @@ def create_days_df(df):
     return days_df
 
 # load final/cleaned data
-all_df = pd.read_csv("day_modified.csv")
+all_df = pd.read_csv("/dashboard/day_modified.csv")
 
 datetime_columns = ['date']
 all_df.sort_values(by='date', inplace=True)
