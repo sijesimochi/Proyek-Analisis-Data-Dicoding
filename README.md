@@ -20,3 +20,4 @@ This project analyses the daily number of bike rents around Portugal. The data w
 
 ## To run the streamlit
 ```streamlit run .\dashboard.py```
+You can also check the dashboard [Here](https://sijesimochi.streamlit.app) without needing to download the whole zip.
