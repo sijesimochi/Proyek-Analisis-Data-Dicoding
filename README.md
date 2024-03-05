@@ -19,5 +19,5 @@ This project analyses the daily number of bike rents around Portugal. The data w
 ```pip install numpy pandas scipy matplotlib seaborn jupyter streamlit```
 
 ## To run the streamlit
-```streamlit run .\dashboard.py```
+```streamlit run .\dashboard.py```<br>
 You can also check the dashboard [Here](https://sijesimochi.streamlit.app) without needing to download the whole zip.
